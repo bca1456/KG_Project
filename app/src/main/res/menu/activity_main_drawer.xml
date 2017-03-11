@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pencil"
+            android:title="Карандаш" />
+        <item
+            android:id="@+id/nav_line_param"
+            android:title="Линия.Параметрический алгоритм" />
+        <item
+            android:id="@+id/nav_line_bresenhem"
+            android:title="Линия.Алгоритм Брезенхема" />
+        <item
+            android:id="@+id/nav_circle"
+            android:title="Круг" />
+        <item
+            android:id="@+id/nav_clear"
+            android:title="Очистить" />
+        <item
+            android:id="@+id/nav_save"
+            android:title="Сохранить BMP" />
+    </group>
+
+</menu>
