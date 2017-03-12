@@ -71,7 +71,7 @@ public class BresenhemDrawLine {
         }
     }
 
-    public void swap(float x1 , float y1){
+    private void swap(float x1 , float y1){
         float xOld = x1;
         float yOld = y1;
         this.x1 = yOld;
